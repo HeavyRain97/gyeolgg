@@ -1,9 +1,13 @@
+import AppRouter from "./components/AppRouter/AppRouter";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+
 function App() {
   return (
     <>
-      <div>
-        <p className="bg-black text-bold text-white">hi</p>
-      </div>
+      <Header />
+      <AppRouter />
+      <Footer />
     </>
   );
 }
