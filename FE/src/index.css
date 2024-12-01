@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Nanum Gothic 폰트 적용 */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+
+/* 기본 Nanum Gothic 설정 */
+.nanum-gothic-regular {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nanum-gothic-bold {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nanum-gothic-extrabold {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* 전체 기본 폰트 설정 */
+* {
+  font-family: "Nanum Gothic", sans-serif;
+}
+.text-stroke {
+  font-weight: bold;
+  color: white; /* 텍스트 색상 */
+  text-shadow: 1px 1px 0px #3e3e3e, -1px -1px 0px #3e3e3e, 1px -1px 0px #3e3e3e,
+    -1px 1px 0px #3e3e3e;
+}

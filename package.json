@@ -1,0 +1,12 @@
+{
+  "name": "gyeolgg",
+  "version": "1.0.0",
+  "description": "gyeol.gg project files",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pj": "cd ./FE && npm run dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
